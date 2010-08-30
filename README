@@ -1,0 +1,11 @@
+IP Logger with SMS Reporting using Twitter OAuth Bot
+
+Working demo (if the server still UP) : http://iploc.co.cc
+
+See the full tutorial here : http://www.opensecuritylab.org/ip-logger-with-sms-reporting-using-twitter-oa
+
+PS :
++ Extract the "flags.zip" to make the country flags available
++ use the Twitter OAuth by abraham >> http://github.com/abraham/twitteroauth
+
+Thank You :-)
