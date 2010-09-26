@@ -97,13 +97,13 @@ background-color : transparent;
 
 <b>Your Location Based on your IP : <font color="#000066"></b><img src="flags/flag_<?php echo strtolower(geoip_country_code_by_addr($gic, $ip));?>.gif">
 <?php
-print $record->country_name . "\n";
-print $GEOIP_REGION_NAME[$record->country_code][$record->region] . "\n";
-print $record->city . "\n (";
-print $record->latitude . "\n , ";
-print $record->longitude . ")\n";
-print $record->metro_code . "\n";
-print $record->area_code . "\n";
+echo $record->country_name . "\n";
+echo $GEOIP_REGION_NAME[$record->country_code][$record->region] . "\n";
+echo $record->city . "\n (";
+echo $record->latitude . "\n , ";
+echo $record->longitude . ")\n";
+echo $record->metro_code . "\n";
+echo $record->area_code . "\n";
  ?>
 </font>
 
